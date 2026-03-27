@@ -178,7 +178,7 @@ def image():
            
         if predicted_class == 'absent':
             str_label = "absent"
-            bot = telepot.Bot("8573396686:AAF2FTs35Pkm5j4l0HRDMt0A3MInqf6lXWk")
+            bot = telepot.Bot("YOUR_BOT_TOKEN_HERE")
             bot.sendMessage("1095142993", str('absent'))
             
             
@@ -186,7 +186,7 @@ def image():
 
         elif predicted_class == 'high_severity':
             str_label = "high_severity"
-            bot = telepot.Bot("8573396686:AAF2FTs35Pkm5j4l0HRDMt0A3MInqf6lXWk")
+            bot = telepot.Bot("YOUR_BOT_TOKEN_HERE")
             bot.sendMessage("1095142993", str('high_severity'))
             
             
@@ -194,7 +194,7 @@ def image():
 
         elif predicted_class == 'low_severity':
             str_label = "low_severity"
-            bot = telepot.Bot("8573396686:AAF2FTs35Pkm5j4l0HRDMt0A3MInqf6lXWk")
+            bot = telepot.Bot("YOUR_BOT_TOKEN_HERE")
             bot.sendMessage("1095142993", str('low_severity'))
             
         accuracy = f"The predicted image is {str_label} with a confidence of {confidence:.2%}"
