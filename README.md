@@ -28,6 +28,9 @@ requirements.txt: List of necessary Python libraries.
 
 .gitignore: Prevents 218MB model and environment files from uploading.
 
+Demo video link = https://youtube.com/watch?v=zC4SB9jlhEc&t=102&feature=shared
+
+
 ⚙️ Installation
 Install Libraries: pip install -r requirements.txt
 
